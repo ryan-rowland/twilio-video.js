@@ -23,6 +23,7 @@ describe('LocalParticipant', function() {
 
   function waitForSometime(message, time = 1000) {
     return new Promise(resolve => setTimeout(() => {
+      // eslint-disable-next-line no-console
       console.log(message);
       resolve();
     }, time));
@@ -33,6 +34,8 @@ describe('LocalParticipant', function() {
       [0, 5000].forEach((delay) => {
         let rooms = [];
         it('delay: ' + delay + ', dominantSpeaker: ' + dominantSpeaker, async () => {
+          // eslint-disable-next-line no-console
+          console.log('makarand:  delay: ' + delay + ', dominantSpeaker: ' + dominantSpeaker);
           const roomName = randomName();
           const audioTrack = await createLocalAudioTrack();
           const options = {
@@ -46,19 +49,19 @@ describe('LocalParticipant', function() {
           };
 
           const aliceRoom = await connect(getToken('Alice'), options);
-          await waitForSometime('Alice Joined Room: ' + aliceRoom.sid, delay);
+          await waitForSometime('makarand: Alice Joined Room: ' + aliceRoom.sid, delay);
 
           const bobRoom = await connect(getToken('Bob'), options);
-          await waitForSometime('Bob Joined Room: ' + bobRoom.sid, 0);
+          await waitForSometime('makarand: Bob Joined Room: ' + bobRoom.sid, 0);
 
           await participantsConnected(aliceRoom, 1);
-          await waitForSometime('Alice Saw Bob connect', 0);
+          await waitForSometime('makarand: Alice Saw Bob connect', 0);
 
           await participantsConnected(bobRoom, 1);
-          await waitForSometime('Bob saw Alice connect', 0);
+          await waitForSometime('makarand: Bob saw Alice connect', 0);
 
           await aliceRoom.localParticipant.publishTrack(new LocalDataTrack());
-          await waitForSometime('Alice Published Data Track!', 0);
+          await waitForSometime('makarand: Alice Published Data Track!', 0);
         });
 
         // eslint-disable-next-line no-invalid-this

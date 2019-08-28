@@ -1,0 +1,213 @@
+Summary for Room: so8urdhisr | RM8d53dd3cd607699573080568f43d197e | AC1314d19f60762b63d29a8e2894e0f97a
+Topology: group | Adhoc: True | TURN: True | Recording: False | Video Codecs: VP8,H264 | Media Region: us1
+VMS: VMf12a1cd354d4de7205ad16134547ac93
+Participants:
+P1: PAa42f765a4974baccc623ba5a2f30834c | CAe17614c6f045cfdba8860f17407ad5b8 | Alice | unified | jsdk 2.0.0-dev | Firefox 68.0
+P2: PA07bfdb38ee85bc24eaabec07f5d90da0 | CA2c439d8590c523c53779e33a8f2601bf | Bob | unified | jsdk 2.0.0-dev | Firefox 68.0
+2019-08-28T16:06:53.328Z: [add_labeled_room]
+2019-08-28T16:06:53.328Z: P1 sent connect with audio tracks and ICE servers acquired from ECS
+2019-08-28T16:06:53.328Z: P1 sent offer for peer connection id 955a98e6-ac3a-4b57-95d3-9e83e97200ea revision: 1
+2019-08-28T16:06:53.328Z: P1 requests active_speaker
+2019-08-28T16:06:53.329Z: [room_created]
+2019-08-28T16:06:53.330Z: P1 updated subscribe rules: { include all }
+2019-08-28T16:06:53.475Z: P1 received connected
+2019-08-28T16:06:53.475Z: P1 received answer for peer connection id 955a98e6-ac3a-4b57-95d3-9e83e97200ea revision: 1
+2019-08-28T16:06:53.475Z: P1 received active_speaker : 7f898dac-8873-4a02-9115-0c78d19eaa65
+2019-08-28T16:06:53.476Z: P1 received offer for peer connection id 955a98e6-ac3a-4b57-95d3-9e83e97200ea revision: 2
+2019-08-28T16:06:53.575Z: P1 sent ice complete for peer connection id 955a98e6-ac3a-4b57-95d3-9e83e97200ea with 11 ice candidates [ 4 host, 2 srflx, 4 relay ] revision: 12
+2019-08-28T16:06:53.592Z: P1 sent answer for peer connection id 955a98e6-ac3a-4b57-95d3-9e83e97200ea revision: 2
+2019-08-28T16:06:53.710Z: [ice_connection_state_change] for P1 with state COMPLETED
+2019-08-28T16:06:53.710Z: [ice_connection_state_change] for P1 with state CONNECTED
+2019-08-28T16:06:53.900Z: P1 sent ice complete for peer connection id 955a98e6-ac3a-4b57-95d3-9e83e97200ea with no ice candidates (could be in SDP) revision: 13
+
+2019-08-28T16:06:54.629Z: P2 sent connect with audio tracks and ICE servers acquired from ECS
+2019-08-28T16:06:54.629Z: P2 sent offer for peer connection id 446d69b5-d57f-4840-91fb-dca7035fdc51 revision: 1
+2019-08-28T16:06:54.629Z: P2 requests active_speaker
+2019-08-28T16:06:54.630Z: P2 updated subscribe rules: { include all }
+
+2019-08-28T16:06:54.647Z: P2 received connected
+2019-08-28T16:06:54.647Z: P2 received answer for peer connection id 446d69b5-d57f-4840-91fb-dca7035fdc51 revision: 1
+2019-08-28T16:06:54.647Z: P2 received active_speaker : ea16c2fa-26a1-4c6f-becc-5e1ccd563e49
+2019-08-28T16:06:54.648Z: P2 received offer for peer connection id 446d69b5-d57f-4840-91fb-dca7035fdc51 revision: 2
+2019-08-28T16:06:54.648Z: P2 subscribed: MT2a8dfb75b45a37e7aa9d26bdf07e108f revision: 1
+2019-08-28T16:06:54.649Z: P1 received offer for peer connection id 955a98e6-ac3a-4b57-95d3-9e83e97200ea revision: 3
+2019-08-28T16:06:54.649Z: P1 subscribed: MT733161cedb810c0322d404ed1ad0bee8 revision: 1
+2019-08-28T16:06:54.747Z: P2 sent ice complete for peer connection id 446d69b5-d57f-4840-91fb-dca7035fdc51 with 11 ice candidates [ 4 host, 2 srflx, 4 relay ] revision: 12
+2019-08-28T16:06:54.772Z: P2 sent answer for peer connection id 446d69b5-d57f-4840-91fb-dca7035fdc51 revision: 2
+2019-08-28T16:06:54.779Z: P1 sent answer for peer connection id 955a98e6-ac3a-4b57-95d3-9e83e97200ea revision: 3
+2019-08-28T16:06:54.785Z: P1 sent ice complete for peer connection id 955a98e6-ac3a-4b57-95d3-9e83e97200ea with no ice candidates (could be in SDP) revision: 14
+2019-08-28T16:06:54.882Z: [ice_connection_state_change] for P2 with state COMPLETED
+2019-08-28T16:06:54.882Z: [ice_connection_state_change] for P2 with state CONNECTED
+2019-08-28T16:06:55.086Z: P1 sent update with track changes: data was added revision: 3
+2019-08-28T16:06:55.086Z: P2 sent ice complete for peer connection id 446d69b5-d57f-4840-91fb-dca7035fdc51 with no ice candidates (could be in SDP) revision: 13
+2019-08-28T16:06:55.090Z: P1 published data: 40c97067-d4e6-4840-a2ac-bdc6edb084bd / MTccfe363d7b56c56b00b6aa22af3c304a revision: 2
+2019-08-28T16:06:55.090Z: P1 published audio: {c2c1c438-ffb8-c44b-9372-5ef635a01c73} / MT2a8dfb75b45a37e7aa9d26bdf07e108f revision: 2
+2019-08-28T16:06:56.072Z: P2 subscribed: MTccfe363d7b56c56b00b6aa22af3c304a revision: 2
+2019-08-28T16:07:34.338Z: P2 unsubscribed from: MTccfe363d7b56c56b00b6aa22af3c304a revision: 3
+2019-08-28T16:07:34.344Z: P1 unpublished: MTccfe363d7b56c56b00b6aa22af3c304a revision: 3
+2019-08-28T16:07:59.441Z: [ice_connection_state_change] for P1 with state FAILED
+2019-08-28T16:08:00.612Z: [ice_connection_state_change] for P2 with state FAILED
+2019-08-28T16:08:24.840Z: P1 received error: 53002 Signaling connection timed out: Reconnecting timeout
+2019-08-28T16:08:24.840Z: [participant_disconnected]
+2019-08-28T16:08:24.842Z: P2 received error: 53002 Signaling connection timed out: Reconnecting timeout
+2019-08-28T16:08:24.842Z: [participant_disconnected]
+2019-08-28T16:08:24.845Z: [group_billing_event] for P1 with bytes sent 406707, bytes received 452033, recording time in secs 0
+2019-08-28T16:08:24.847Z: [delete_labeled_room]
+2019-08-28T16:08:24.847Z: [group_billing_event] for P2 with bytes sent 396721, bytes received 437701, recording time in secs 0
+
+Summary for Room: kwuuqjvz0gb | RM999680c168cb144298a855715cd494f9 | AC1314d19f60762b63d29a8e2894e0f97a
+Topology: group | Adhoc: True | TURN: True | Recording: False | Video Codecs: VP8,H264 | Media Region: us1
+VMS: VM2f7e59d58a8f405926e4b7b2a3b251ec
+Participants:
+P1: PA4679833b65002c70c1afcd3038814ae9 | CAc1aafd4beee2811b26b7b37373cc01df | Alice | unified | jsdk 2.0.0-dev | Firefox 68.0
+P2: PA6c45eaf12053c28275b4daa5561f5918 | CA1fc0943bf6d372f8b507fd9afe3f01b2 | Bob | unified | jsdk 2.0.0-dev | Firefox 68.0
+2019-08-28T16:06:55.723Z: [add_labeled_room]
+2019-08-28T16:06:55.724Z: P1 sent connect with audio tracks and ICE servers acquired from ECS
+2019-08-28T16:06:55.724Z: P1 sent offer for peer connection id ab5dba50-2daa-4ec4-8250-d3b814c3e6e0 revision: 1
+2019-08-28T16:06:55.724Z: P1 requests active_speaker
+2019-08-28T16:06:55.725Z: [room_created]
+2019-08-28T16:06:55.725Z: P1 updated subscribe rules: { include all }
+2019-08-28T16:06:55.939Z: P1 received connected
+2019-08-28T16:06:55.939Z: P1 received answer for peer connection id ab5dba50-2daa-4ec4-8250-d3b814c3e6e0 revision: 1
+2019-08-28T16:06:55.939Z: P1 received active_speaker : 728a825e-daca-40b6-8ce3-e57eca37870d
+2019-08-28T16:06:55.940Z: P1 received offer for peer connection id ab5dba50-2daa-4ec4-8250-d3b814c3e6e0 revision: 2
+2019-08-28T16:06:56.038Z: P1 sent ice complete for peer connection id ab5dba50-2daa-4ec4-8250-d3b814c3e6e0 with 11 ice candidates [ 4 host, 2 srflx, 4 relay ] revision: 12
+2019-08-28T16:06:56.050Z: P1 sent answer for peer connection id ab5dba50-2daa-4ec4-8250-d3b814c3e6e0 revision: 2
+2019-08-28T16:06:56.158Z: [ice_connection_state_change] for P1 with state COMPLETED
+2019-08-28T16:06:56.158Z: [ice_connection_state_change] for P1 with state CONNECTED
+2019-08-28T16:06:56.351Z: P1 sent ice complete for peer connection id ab5dba50-2daa-4ec4-8250-d3b814c3e6e0 with no ice candidates (could be in SDP) revision: 13
+
+2019-08-28T16:07:01.582Z: P2 sent connect with audio tracks and ICE servers acquired from ECS
+2019-08-28T16:07:01.582Z: P2 sent offer for peer connection id e785ec98-698b-482a-95a5-45192d47c3e5 revision: 1
+2019-08-28T16:07:01.582Z: P2 requests active_speaker
+2019-08-28T16:07:01.583Z: P2 updated subscribe rules: { include all }
+
+2019-08-28T16:07:01.599Z: P1 received offer for peer connection id ab5dba50-2daa-4ec4-8250-d3b814c3e6e0 revision: 3
+2019-08-28T16:07:01.599Z: P1 subscribed: MT749793e42b0d51b9c0d9738efb817b74 revision: 1
+2019-08-28T16:07:01.599Z: P2 received offer for peer connection id e785ec98-698b-482a-95a5-45192d47c3e5 revision: 2
+2019-08-28T16:07:01.599Z: P2 subscribed: MT8549675482505a6b735e5ec8ca51586f revision: 1
+2019-08-28T16:07:01.600Z: P2 received connected
+2019-08-28T16:07:01.600Z: P2 received answer for peer connection id e785ec98-698b-482a-95a5-45192d47c3e5 revision: 1
+2019-08-28T16:07:01.600Z: P2 received active_speaker : facefcb4-d993-4fc4-bb89-86c434ab2474
+2019-08-28T16:07:01.719Z: P2 sent ice complete for peer connection id e785ec98-698b-482a-95a5-45192d47c3e5 with 11 ice candidates [ 4 host, 2 srflx, 4 relay ] revision: 12
+2019-08-28T16:07:01.720Z: P1 sent answer for peer connection id ab5dba50-2daa-4ec4-8250-d3b814c3e6e0 revision: 3
+2019-08-28T16:07:01.734Z: P1 sent ice complete for peer connection id ab5dba50-2daa-4ec4-8250-d3b814c3e6e0 with no ice candidates (could be in SDP) revision: 14
+2019-08-28T16:07:01.735Z: P2 sent answer for peer connection id e785ec98-698b-482a-95a5-45192d47c3e5 revision: 2
+2019-08-28T16:07:01.834Z: [ice_connection_state_change] for P2 with state CONNECTED
+2019-08-28T16:07:01.834Z: [ice_connection_state_change] for P2 with state COMPLETED
+2019-08-28T16:07:02.035Z: P2 sent ice complete for peer connection id e785ec98-698b-482a-95a5-45192d47c3e5 with no ice candidates (could be in SDP) revision: 13
+2019-08-28T16:07:02.036Z: P1 sent update with track changes: data was added revision: 3
+2019-08-28T16:07:02.040Z: P1 published audio: {300937ff-70bf-f34d-9566-81486009c5f6} / MT8549675482505a6b735e5ec8ca51586f revision: 2
+2019-08-28T16:08:01.893Z: [ice_connection_state_change] for P1 with state FAILED
+2019-08-28T16:08:07.569Z: [ice_connection_state_change] for P2 with state FAILED
+2019-08-28T16:08:25.407Z: P2 received error: 53002 Signaling connection timed out: Reconnecting timeout
+2019-08-28T16:08:25.408Z: [participant_disconnected]
+2019-08-28T16:08:25.409Z: P1 received error: 53002 Signaling connection timed out: Reconnecting timeout
+2019-08-28T16:08:25.409Z: [participant_disconnected]
+2019-08-28T16:08:25.411Z: [group_billing_event] for P2 with bytes sent 326137, bytes received 358197, recording time in secs 0
+2019-08-28T16:08:25.414Z: [group_billing_event] for P1 with bytes sent 336060, bytes received 423163, recording time in secs 0
+2019-08-28T16:08:25.415Z: [delete_labeled_room]
+
+Summary for Room: dz8ugw2xmab | RMd633cd6fb970df7f248ac4e4a23af04f | AC1314d19f60762b63d29a8e2894e0f97a
+Topology: group | Adhoc: True | TURN: True | Recording: False | Video Codecs: VP8,H264 | Media Region: us1
+VMS: VMd72e16e36f77e4653c31f9381ba684c2
+Participants:
+P1: PA136a099e9e207d604ff504aaa75c7c67 | CA1ce959faf77d12fb342475c3e18982dd | Alice | unified | jsdk 2.0.0-dev | Firefox 68.0
+P2: PA0c024385e68ac2aaf1d4b5e2952af3c2 | CAb5e875cbe3d951c7d0de0a1bc7aff90f | Bob | unified | jsdk 2.0.0-dev | Firefox 68.0
+2019-08-28T16:07:25.747Z: [add_labeled_room]
+2019-08-28T16:07:25.748Z: P1 sent connect with audio tracks and ICE servers acquired from ECS
+2019-08-28T16:07:25.748Z: P1 sent offer for peer connection id f37902cc-d419-45d3-a0c1-d75e74519f5c revision: 1
+2019-08-28T16:07:25.749Z: [room_created]
+2019-08-28T16:07:25.749Z: P1 updated subscribe rules: { include all }
+2019-08-28T16:07:25.945Z: P1 received connected
+2019-08-28T16:07:25.945Z: P1 received answer for peer connection id f37902cc-d419-45d3-a0c1-d75e74519f5c revision: 1
+2019-08-28T16:07:26.047Z: P1 sent ice complete for peer connection id f37902cc-d419-45d3-a0c1-d75e74519f5c with 11 ice candidates [ 4 host, 2 srflx, 4 relay ] revision: 12
+2019-08-28T16:07:26.165Z: [ice_connection_state_change] for P1 with state CONNECTED
+2019-08-28T16:07:26.207Z: [ice_connection_state_change] for P1 with state COMPLETED
+2019-08-28T16:07:26.797Z: P2 sent connect with audio tracks and ICE servers acquired from ECS
+2019-08-28T16:07:26.797Z: P2 sent offer for peer connection id 41eb08eb-8011-4631-b618-80cf625ed53a revision: 1
+2019-08-28T16:07:26.798Z: P2 updated subscribe rules: { include all }
+2019-08-28T16:07:26.811Z: P2 received connected
+2019-08-28T16:07:26.811Z: P2 received answer for peer connection id 41eb08eb-8011-4631-b618-80cf625ed53a revision: 1
+2019-08-28T16:07:26.813Z: P2 received offer for peer connection id 41eb08eb-8011-4631-b618-80cf625ed53a revision: 2
+2019-08-28T16:07:26.813Z: P2 subscribed: MT93988262ed605d3bc41e42be6458efcd revision: 1
+2019-08-28T16:07:26.814Z: P1 received offer for peer connection id f37902cc-d419-45d3-a0c1-d75e74519f5c revision: 2
+2019-08-28T16:07:26.814Z: P1 subscribed: MTc62130b01ed796d24d0cdd6e4dfa52f1 revision: 1
+2019-08-28T16:07:26.916Z: P2 sent ice complete for peer connection id 41eb08eb-8011-4631-b618-80cf625ed53a with 11 ice candidates [ 4 host, 2 srflx, 4 relay ] revision: 12
+2019-08-28T16:07:26.934Z: P2 sent answer for peer connection id 41eb08eb-8011-4631-b618-80cf625ed53a revision: 2
+2019-08-28T16:07:26.939Z: P1 sent answer for peer connection id f37902cc-d419-45d3-a0c1-d75e74519f5c revision: 2
+2019-08-28T16:07:26.941Z: P1 sent ice complete for peer connection id f37902cc-d419-45d3-a0c1-d75e74519f5c with no ice candidates (could be in SDP) revision: 13
+2019-08-28T16:07:26.949Z: P1 sent offer for peer connection id f37902cc-d419-45d3-a0c1-d75e74519f5c revision: 3
+2019-08-28T16:07:26.949Z: P1 sent update with track changes: data was added revision: 3
+2019-08-28T16:07:26.955Z: P1 received answer for peer connection id f37902cc-d419-45d3-a0c1-d75e74519f5c revision: 3
+2019-08-28T16:07:26.955Z: P1 published audio: {afa90b60-40e2-5741-a51c-5cbfa0096689} / MT93988262ed605d3bc41e42be6458efcd revision: 2
+2019-08-28T16:07:27.047Z: [ice_connection_state_change] for P2 with state CONNECTED
+2019-08-28T16:07:27.241Z: P2 sent ice complete for peer connection id 41eb08eb-8011-4631-b618-80cf625ed53a with no ice candidates (could be in SDP) revision: 13
+2019-08-28T16:07:27.249Z: P1 sent ice complete for peer connection id f37902cc-d419-45d3-a0c1-d75e74519f5c with no ice candidates (could be in SDP) revision: 14
+2019-08-28T16:07:27.317Z: P1 published data: c6fee4c9-c9c8-497d-9324-209d4c77b57d / MT07ece6171ff6ca89db6a7d0151bd609a revision: 3
+2019-08-28T16:07:27.319Z: P2 received offer for peer connection id 41eb08eb-8011-4631-b618-80cf625ed53a revision: 3
+2019-08-28T16:07:27.418Z: P2 sent answer for peer connection id 41eb08eb-8011-4631-b618-80cf625ed53a revision: 3
+2019-08-28T16:07:27.623Z: P2 sent ice complete for peer connection id 41eb08eb-8011-4631-b618-80cf625ed53a with no ice candidates (could be in SDP) revision: 14
+2019-08-28T16:07:28.365Z: P2 subscribed: MT07ece6171ff6ca89db6a7d0151bd609a revision: 2
+2019-08-28T16:07:34.950Z: [ice_connection_state_change] for P2 with state COMPLETED
+2019-08-28T16:08:06.866Z: [ice_connection_state_change] for P1 with state FAILED
+2019-08-28T16:08:07.736Z: [ice_connection_state_change] for P2 with state FAILED
+2019-08-28T16:08:19.322Z: P2 received error: 53002 Signaling connection timed out: Reconnecting timeout
+2019-08-28T16:08:19.322Z: [participant_disconnected]
+2019-08-28T16:08:19.324Z: P1 received error: 53002 Signaling connection timed out: Reconnecting timeout
+2019-08-28T16:08:19.324Z: [participant_disconnected]
+2019-08-28T16:08:19.326Z: [group_billing_event] for P2 with bytes sent 81913, bytes received 74721, recording time in secs 0
+2019-08-28T16:08:19.330Z: [delete_labeled_room]
+2019-08-28T16:08:19.330Z: [group_billing_event] for P1 with bytes sent 80541, bytes received 84869, recording time in secs 0
+
+Summary for Room: 0f0vcxcwamvt | RM09b06153806e1ef9dd0b46890776561b | AC1314d19f60762b63d29a8e2894e0f97a
+Topology: group | Adhoc: True | TURN: True | Recording: False | Video Codecs: VP8,H264 | Media Region: us1
+VMS: VM5d4af19c069b22bbb230e8cbea250fac
+Participants:
+P1: PA9b795f7e1a2b514c887d372f6c3c95e2 | CA08b710abc4ad0feeab232e8d42dde4cb | Alice | unified | jsdk 2.0.0-dev | Firefox 68.0
+P2: PA48342cf5cd3547565048f1cda3650de8 | CA9b0f0eb903db3e08c1aa3fc190e88499 | Bob | unified | jsdk 2.0.0-dev | Firefox 68.0
+2019-08-28T16:07:27.976Z: [add_labeled_room]
+2019-08-28T16:07:27.977Z: P1 sent connect with audio tracks and ICE servers acquired from ECS
+2019-08-28T16:07:27.977Z: P1 sent offer for peer connection id 33862cf7-93e4-41b8-ad37-4416b5790b09 revision: 1
+2019-08-28T16:07:27.978Z: [room_created]
+2019-08-28T16:07:27.978Z: P1 updated subscribe rules: { include all }
+2019-08-28T16:07:28.092Z: P1 received connected
+2019-08-28T16:07:28.092Z: P1 received answer for peer connection id 33862cf7-93e4-41b8-ad37-4416b5790b09 revision: 1
+2019-08-28T16:07:28.220Z: P1 sent ice complete for peer connection id 33862cf7-93e4-41b8-ad37-4416b5790b09 with 11 ice candidates [ 4 host, 2 srflx, 4 relay ] revision: 12
+2019-08-28T16:07:28.362Z: [ice_connection_state_change] for P1 with state CONNECTED
+2019-08-28T16:07:28.382Z: [ice_connection_state_change] for P1 with state COMPLETED
+2019-08-28T16:07:33.763Z: P2 sent connect with audio tracks and ICE servers acquired from ECS
+2019-08-28T16:07:33.763Z: P2 sent offer for peer connection id 5a0117d3-2310-45b2-a3c6-9c9f97f85357 revision: 1
+2019-08-28T16:07:33.765Z: P2 updated subscribe rules: { include all }
+2019-08-28T16:07:33.780Z: P2 received connected
+2019-08-28T16:07:33.780Z: P2 received answer for peer connection id 5a0117d3-2310-45b2-a3c6-9c9f97f85357 revision: 1
+2019-08-28T16:07:33.781Z: P2 received offer for peer connection id 5a0117d3-2310-45b2-a3c6-9c9f97f85357 revision: 2
+2019-08-28T16:07:33.781Z: P2 subscribed: MT44f8ca478d397e403c3269d320140bf0 revision: 1
+2019-08-28T16:07:33.782Z: P1 received offer for peer connection id 33862cf7-93e4-41b8-ad37-4416b5790b09 revision: 2
+2019-08-28T16:07:33.782Z: P1 subscribed: MTdb1500f99c8396fbd3fa072515f3c69f revision: 1
+2019-08-28T16:07:33.905Z: P2 sent ice complete for peer connection id 5a0117d3-2310-45b2-a3c6-9c9f97f85357 with 11 ice candidates [ 4 host, 2 srflx, 4 relay ] revision: 12
+2019-08-28T16:07:33.906Z: P1 sent answer for peer connection id 33862cf7-93e4-41b8-ad37-4416b5790b09 revision: 2
+2019-08-28T16:07:33.906Z: P2 sent answer for peer connection id 5a0117d3-2310-45b2-a3c6-9c9f97f85357 revision: 2
+2019-08-28T16:07:33.906Z: P1 sent ice complete for peer connection id 33862cf7-93e4-41b8-ad37-4416b5790b09 with no ice candidates (could be in SDP) revision: 13
+2019-08-28T16:07:33.914Z: P1 sent offer for peer connection id 33862cf7-93e4-41b8-ad37-4416b5790b09 revision: 3
+2019-08-28T16:07:33.914Z: P1 sent update with track changes: data was added revision: 3
+2019-08-28T16:07:33.923Z: P1 received answer for peer connection id 33862cf7-93e4-41b8-ad37-4416b5790b09 revision: 3
+2019-08-28T16:07:33.923Z: P1 published audio: {673455b4-d8d6-9a49-9ff7-2588bb577647} / MT44f8ca478d397e403c3269d320140bf0 revision: 2
+2019-08-28T16:07:34.022Z: [ice_connection_state_change] for P2 with state CONNECTED
+2019-08-28T16:07:34.022Z: [ice_connection_state_change] for P2 with state COMPLETED
+2019-08-28T16:07:34.214Z: P2 sent ice complete for peer connection id 5a0117d3-2310-45b2-a3c6-9c9f97f85357 with no ice candidates (could be in SDP) revision: 13
+2019-08-28T16:07:34.215Z: P1 sent ice complete for peer connection id 33862cf7-93e4-41b8-ad37-4416b5790b09 with no ice candidates (could be in SDP) revision: 14
+2019-08-28T16:07:34.217Z: P1 published data: 6878452e-a329-48fa-94fd-860ab2e4e98f / MT94fea8403364a08537fe887763470e1a revision: 3
+2019-08-28T16:07:34.218Z: P2 received offer for peer connection id 5a0117d3-2310-45b2-a3c6-9c9f97f85357 revision: 3
+2019-08-28T16:07:34.322Z: P2 sent answer for peer connection id 5a0117d3-2310-45b2-a3c6-9c9f97f85357 revision: 3
+2019-08-28T16:07:34.522Z: P2 sent ice complete for peer connection id 5a0117d3-2310-45b2-a3c6-9c9f97f85357 with no ice candidates (could be in SDP) revision: 14
+2019-08-28T16:08:09.047Z: [ice_connection_state_change] for P1 with state FAILED
+2019-08-28T16:08:14.733Z: [ice_connection_state_change] for P2 with state FAILED
+2019-08-28T16:08:17.458Z: P1 received error: 53002 Signaling connection timed out: Reconnecting timeout
+2019-08-28T16:08:17.459Z: [participant_disconnected]
+2019-08-28T16:08:17.460Z: P2 received error: 53002 Signaling connection timed out: Reconnecting timeout
+2019-08-28T16:08:17.460Z: [participant_disconnected]
+2019-08-28T16:08:17.463Z: [group_billing_event] for P1 with bytes sent 16826, bytes received 61406, recording time in secs 0
+2019-08-28T16:08:17.466Z: [group_billing_event] for P2 with bytes sent 4424, bytes received 1856, recording time in secs 0
+2019-08-28T16:08:17.467Z: [delete_labeled_room]
+
