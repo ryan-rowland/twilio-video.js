@@ -1179,23 +1179,4 @@ describe('LocalParticipant', function() {
       assert(!error);
     });
   });
-
-  describe.only('JSDK-2477 - verifies that data track can be published in multi-party room', async () => {
-    [true, false].forEach((dominantSpeaker) => {
-      it(' when dominantSpeaker is ' + dominantSpeaker, async () => {
-        const roomName = randomName();
-        const rooms = await Promise.all(['Alice', 'Bob', 'Charlie'].map(getToken).map(token => connect(token, Object.assign({
-          dominantSpeaker,
-          name: roomName,
-        }, defaults))));
-
-        await Promise.all(rooms.map(room => participantsConnected(room, 2)));
-
-        // publish a data Track in each room
-        const publishPromises = rooms.map( room => room.localParticipant.publishTrack(new LocalDataTrack() ));
-        await Promise.all(publishPromises);
-
-      });
-    });
-  });
 });

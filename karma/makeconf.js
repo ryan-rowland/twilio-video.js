@@ -80,7 +80,7 @@ function makeConf(defaultFile, browserNoActivityTimeout, requires) {
         groupSuites: true,
         useCompactStyle: true,
         useLegacyStyle: true,
-        showOnlyFailed: true, // only collect failures in the report file.
+        showOnlyFailed: false, // only collect failures in the report file.
       },
       junitReporter: {
         outputDir: `../logs/${strTestRun}`, // results will be saved as $outputDir/$browserName.xml
