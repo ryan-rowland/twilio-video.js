@@ -1222,9 +1222,9 @@ describe('connect', function() {
         });
 
         it(`should switch off RemoteVideoTracks that are published by the ${capitalize(switchOffParticipant)} Speaker`, async () => {
-          const [aliceTracks, bobTracks] = await Promise.all([1, 2].map(async () => [
+          const [aliceTracks, bobTracks] = await Promise.all(['alice', 'bob'].map(async name => [
             createSyntheticAudioStreamTrack() || await createLocalAudioTrack({ fake: true }),
-            await createLocalVideoTrack(smallVideoConstraints)
+            await createLocalVideoTrack(Object.assign({ name }, smallVideoConstraints))
           ]));
 
           // Initially disable Alice's audio
@@ -1255,6 +1255,15 @@ describe('connect', function() {
               on: { participant: bobRemote, remoteVideoTrack: bobRemoteVideoTrack }
             }
           }[switchOffParticipant];
+
+          Object.values(switched).forEach(({ participant, remoteVideoTrack }) => {
+            ['switchedOff', 'switchedOn'].forEach(event => {
+              remoteVideoTrack.on(event, () => {
+                // eslint-disable-next-line no-console
+                console.log(`${event}: ${remoteVideoTrack.name} | ${remoteVideoTrack.sid} | ${participant.sid} | ${thisRoom.sid}`);
+              });
+            });
+          });
 
           // Bob should be the Dominant Speaker
           await Promise.all([
